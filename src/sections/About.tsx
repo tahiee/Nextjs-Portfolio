@@ -10,7 +10,7 @@ import ReactIcon from "@/assets/icons/react.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import CromeIcon from "@/assets/icons/chrome.svg";
 import TailwindIcon from "@/assets/icons/tailwind-css.svg";
-import MapImg from "@/assets/images/karachi-map.png";
+import MapImg from "@/assets/images/karachimap.png";
 import SimilIcon from "@/assets/images/memoji-smile.png";
 import CardHeader from "@/components/CardHeader";
 import ToolboxItem from "@/components/ToolboxItem";
