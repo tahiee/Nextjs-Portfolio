@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+import { RefObject } from 'react';
 import Image from "next/image";
 import HeroImg from "../assets/images/memoji-computer.png";
 import ArrowDown from "../assets/icons/arrow-down.svg";
@@ -8,7 +8,7 @@ import StarImg from "../assets/icons/star.svg";
 import SparkalIcon from "../assets/icons/sparkle.svg";
 import Link from "next/link";
 
-export const HeroSection = ({ homeSectionRef }: any) => {
+export const HeroSection = ({ homeSectionRef }:  { homeSectionRef: RefObject<HTMLDivElement> }) => {
   
   return (
     <div
@@ -134,7 +134,7 @@ export const HeroSection = ({ homeSectionRef }: any) => {
               <div className="bg-green-500 absolute inset-0 animate-ping-large rounded-full"></div>
             </div>
             <div className="text-sm font-medium font-sans">
-              Hey, I'm Tahir Khan
+              Hey, I’m Tahir Khan
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ export const HeroSection = ({ homeSectionRef }: any) => {
           </button>
           <button className="z-50 cursor-pointer inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl">
             <span>👋</span>
-            <Link href='mailto:tahirkhanji007@gmail.com' className="font-semibold">Let's Connect</Link>
+            <Link href='mailto:tahirkhanji007@gmail.com' className="font-semibold">Let’s Connect</Link>
           </button>
         </div>
       </div>

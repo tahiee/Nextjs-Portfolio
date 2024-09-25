@@ -1,10 +1,11 @@
+import { RefObject } from 'react';
 import ArrowIcon from "@/assets/icons/arrow-up-right.svg";
 import ArrowIcon2 from "@/assets/icons/arrow-down.svg";
 import GrainImg from "@/assets/images/grain.jpg";
 import Link from "next/link";
 import SectionHeader from "@/components/SectionHeader";
 
-export const ContactSection = ({ contactSectionRef }: any) => {
+export const ContactSection = ({ contactSectionRef }: { contactSectionRef: RefObject<HTMLDivElement> }) => {
   return (
     <div className="py-16 pt-12 lg:py-24 lg:pt-20" ref={contactSectionRef}>
       <div className="container">
@@ -19,10 +20,10 @@ export const ContactSection = ({ contactSectionRef }: any) => {
           <div className=" flex flex-col items-center gap-8 md:gap-18 md:flex-row">
             <div className="">
               <h2 className="font-serif text-2xl md:text-3xl">
-                Let's Create Something amazing together
+                Let’s Create Something amazing together
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Ready to bring your Next Project to life? Let's connect and
+                Ready to bring your Next Project to life? Let’s connect and
                 discuss how I can help you achieve your goals.
               </p>
             </div>

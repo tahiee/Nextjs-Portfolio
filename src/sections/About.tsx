@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 import Card from "@/components/Card";
 import SectionHeader from "@/components/SectionHeader";
@@ -93,7 +94,6 @@ const Hobbies = [
   },
 ];
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const AboutSection = ({aboutSectionRef}:any) => {
   const constrainRef = useRef(null);
   return (

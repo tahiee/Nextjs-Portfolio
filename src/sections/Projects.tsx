@@ -1,5 +1,3 @@
-import { FC, RefObject } from "react";
-
 // import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import darkSaasLandingPage from "@/assets/images/sm3.png";
 // import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
@@ -9,7 +7,6 @@ import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import ArrowDownIcon from "@/assets/icons/arrow-down.svg";
-import GrainImg from "@/assets/images/grain.jpg";
 import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
 
@@ -56,7 +53,11 @@ const portfolioProjects = [
   },
 ];
 
-export const ProjectsSection = ({ projectSectionRef }: any) => {
+export const ProjectsSection = ({
+  projectSectionRef,
+}: {
+  projectSectionRef: React.RefObject<HTMLElement>;
+}) => {
   return (
     <section className="pb-16 lg:py-22" ref={projectSectionRef}>
       <div className="container">
