@@ -50,7 +50,7 @@ export const ContactSection = ({
               </button>
               <button className="w-max text-white bg-gray-900 rounded-xl gap-2 mt-4 px-6 py-2 h-12 inline-flex items-center border border-gray-900">
                 <Link
-                  href="https://wa.me/03313381019"
+                  href="https://wa.me/03052095951"
                   className="font-semibold"
                   target="_blank" // Open in a new tab
                   rel="noopener noreferrer" // Security best practice
