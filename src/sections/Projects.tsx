@@ -2,7 +2,8 @@
 import darkSaasLandingPage from "@/assets/images/sm3.png";
 // import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/sm2.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+// import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import aiStartupLandingPage from "@/assets/images/sm1.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -39,16 +40,16 @@ const portfolioProjects = [
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
+    company: "Portfolio",
     year: "2023",
-    title: "AI Startup Landing Page",
+    title: "Old Custom Portfolio",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "React.js: A frontend library for building user interfaces" },
+      { title: "Tailwind CSS: A utility-first CSS framework for designing" },
+      // { title: "" },
     ],
-    link: "https://github.com/tahiee/eventMe_Plaform",
-    link2: "https://github.com/tahiee/eventMe_Plaform",
+    link: "https://tahirdevportfolio.vercel.app/",
+    link2: "https://github.com/tahiee/Tahir.DevProtfolio",
     image: aiStartupLandingPage,
   },
 ];
