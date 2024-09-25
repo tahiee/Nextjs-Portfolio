@@ -92,6 +92,7 @@ const Hobbies = [
   },
 ];
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const AboutSection = ({aboutSectionRef}:any) => {
   const constrainRef = useRef(null);
   return (
