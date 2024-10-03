@@ -2,7 +2,7 @@
 import darkSaasLandingPage from "@/assets/images/sm3.png";
 // import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/sm2.png";
-// import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import aiSeoStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/sm1.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -12,6 +12,19 @@ import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "AI-SE0",
+    year: "2024",
+    title: "AI SEO Landing Page",
+    results: [
+      { title: "Next.js: For server-side rendering." },
+      { title: "Framer Motion: For smooth animations." },
+      { title: "Tailwind CSS: For amazing styling." },
+    ],
+    link: "https://aiseopage.netlify.app/",
+    link2: "https://github.com/tahiee/AI-SEO-Startup-Landing-Page",
+    image: aiSeoStartupLandingPage,
+  },
   {
     company: "EventMe",
     year: "2024",
