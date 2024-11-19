@@ -4,6 +4,7 @@ import darkSaasLandingPage from "@/assets/images/sm3.png";
 import lightSaasLandingPage from "@/assets/images/sm2.png";
 import aiSeoStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/sm1.png";
+import dennisportfolio from "@/assets/images/sm4.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -12,6 +13,19 @@ import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "Dennis Snelleberg",
+    year: "2024",
+    title: "Dennis Snellenberg Portfolio",
+    results: [
+      { title: "Next.js: For clinet-side rendering." },
+      { title: "locomotive-scroll: For smooth scrolling." },
+      { title: "GSAP: For smooth animations." },
+    ],
+    link: "https://dennisportfolio.vercel.app/",
+    link2: "https://github.com/tahiee/dennisportfolionextjs",
+    image: dennisportfolio,
+  },
   {
     company: "AI-SE0",
     year: "2024",
