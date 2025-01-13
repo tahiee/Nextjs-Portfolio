@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { Inter, Calistoga } from "next/font/google";
-import "./globals.css";
 import { twMerge } from "tailwind-merge";
+import type { Metadata } from "next";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const castistoga = Calistoga({
@@ -23,7 +23,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Add favicon link */}
-        <link rel="icon" href="/my-portfolio/src/app/favicon.ico" type="image/x-icon" />
+        <link
+          rel="icon"
+          href="/my-portfolio/src/app/favicon.ico"
+          type="image/x-icon"
+        />
       </head>
 
       <body

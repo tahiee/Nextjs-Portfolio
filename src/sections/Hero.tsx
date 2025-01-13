@@ -1,15 +1,18 @@
-import { RefObject } from 'react';
-import Image from "next/image";
 import HeroImg from "../assets/images/memoji-computer.png";
+import SparkalIcon from "../assets/icons/sparkle.svg";
 import ArrowDown from "../assets/icons/arrow-down.svg";
 import GrainImg from "../assets/images/grain.jpg";
-import HeroOrbit from "@/components/HeroOrbit";
 import StarImg from "../assets/icons/star.svg";
-import SparkalIcon from "../assets/icons/sparkle.svg";
+import HeroOrbit from "@/components/HeroOrbit";
+import { RefObject } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
-export const HeroSection = ({ homeSectionRef }:  { homeSectionRef: RefObject<HTMLDivElement> }) => {
-  
+export const HeroSection = ({
+  homeSectionRef,
+}: {
+  homeSectionRef: RefObject<HTMLDivElement>;
+}) => {
   return (
     <div
       className=" py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
@@ -27,7 +30,7 @@ export const HeroSection = ({ homeSectionRef }:  { homeSectionRef: RefObject<HTM
         <div className="size-[1020px] hero-ring"></div>
         <div className="size-[1220px] hero-ring"></div>
         <div className="size-[1430px] hero-ring"></div>
-        
+
         <HeroOrbit
           size={1030}
           routation={-32}
@@ -140,8 +143,13 @@ export const HeroSection = ({ homeSectionRef }:  { homeSectionRef: RefObject<HTM
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">
-            Building Exceptional User Experience
+            MERN - Full Stack Developer
           </h1>
+          {/* <p className="mt-4 text-center text-white/60 md:text-lg">
+            I specialize in transforming designs into functional,
+            high-performing web applications, particularly using React.js and
+            Next.js. Let’s discuss your new project!
+          </p> */}
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in transforming designs into functional,
             high-performing web applications, particularly using React.js and
@@ -155,7 +163,12 @@ export const HeroSection = ({ homeSectionRef }:  { homeSectionRef: RefObject<HTM
           </button>
           <button className="z-50 cursor-pointer inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl">
             <span>👋</span>
-            <Link href='mailto:tahirkhanji007@gmail.com' className="font-semibold">Let’s Connect</Link>
+            <Link
+              href="mailto:tahirkhanji007@gmail.com"
+              className="font-semibold"
+            >
+              Let’s Connect
+            </Link>
           </button>
         </div>
       </div>

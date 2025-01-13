@@ -1,16 +1,16 @@
 // import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import darkSaasLandingPage from "@/assets/images/sm3.png";
 // import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/sm2.png";
 import aiSeoStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/sm1.png";
-import dennisportfolio from "@/assets/images/sm4.png";
-import Image from "next/image";
-import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import lightSaasLandingPage from "@/assets/images/sm2.png";
+import aiStartupLandingPage from "@/assets/images/sm1.png";
+import darkSaasLandingPage from "@/assets/images/sm3.png";
 import ArrowDownIcon from "@/assets/icons/arrow-down.svg";
+import CheckIcon from "@/assets/icons/check-circle.svg";
 import SectionHeader from "@/components/SectionHeader";
+import dennisportfolio from "@/assets/images/sm4.png";
 import Card from "@/components/Card";
+import Image from "next/image";
 
 const portfolioProjects = [
   {

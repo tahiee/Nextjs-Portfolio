@@ -1,12 +1,12 @@
-'use client'
-import { AboutSection } from "@/sections/About";
+"use client";
+import { TestimonialsSection } from "@/sections/Testimonials";
+import { ProjectsSection } from "@/sections/Projects";
 import { ContactSection } from "@/sections/Contact";
+import { AboutSection } from "@/sections/About";
+import { HeroSection } from "@/sections/Hero";
+import { TapeSection } from "@/sections/Tape";
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
-import { HeroSection } from "@/sections/Hero";
-import { ProjectsSection } from "@/sections/Projects";
-import { TapeSection } from "@/sections/Tape";
-import { TestimonialsSection } from "@/sections/Testimonials";
 import { useRef } from "react";
 
 export default function Home() {
@@ -17,14 +17,19 @@ export default function Home() {
   return (
     <>
       <div>
-        <Header projectSectionRef={projectSectionRef} aboutSectionRef={aboutSectionRef} contactSectionRef={contactSectionRef} homeSectionRef={homeSectionRef} />
-        <HeroSection homeSectionRef={homeSectionRef}/>
+        <Header
+          projectSectionRef={projectSectionRef}
+          aboutSectionRef={aboutSectionRef}
+          contactSectionRef={contactSectionRef}
+          homeSectionRef={homeSectionRef}
+        />
+        <HeroSection homeSectionRef={homeSectionRef} />
         <ProjectsSection projectSectionRef={projectSectionRef} />
-        <TapeSection/>
-        <TestimonialsSection/>
-        <AboutSection aboutSectionRef={aboutSectionRef}/>
-        <ContactSection contactSectionRef={contactSectionRef}/>
-        <Footer/>
+        <TapeSection />
+        <TestimonialsSection />
+        <AboutSection aboutSectionRef={aboutSectionRef} />
+        <ContactSection contactSectionRef={contactSectionRef} />
+        <Footer />
       </div>
     </>
   );
