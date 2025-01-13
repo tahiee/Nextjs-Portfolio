@@ -11,7 +11,19 @@ const castistoga = Calistoga({
 });
 export const metadata: Metadata = {
   title: "Tahir Khan Portfolio",
-  description: "Tahir khan niazi portfolio the best one in the world",
+  description: "Tahir khan niazi portfolio the best one in the world tahir.dev",
+  category: "portfolio",
+  keywords: [
+    "portfolio",
+    "tahir",
+    "tahir.dev",
+    "tahir khan",
+    "tahir khan niazi",
+    "tahir khan portfolio",
+    "tahir khan portfolio website",
+    "2025 best web developer",
+  ],
+  creator: "Tahir Khan",
 };
 
 export default function RootLayout({
