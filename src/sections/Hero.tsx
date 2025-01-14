@@ -3,6 +3,8 @@ import SparkalIcon from "../assets/icons/sparkle.svg";
 import ArrowDown from "../assets/icons/arrow-down.svg";
 import GrainImg from "../assets/images/grain.jpg";
 import StarImg from "../assets/icons/star.svg";
+import Astro from "../assets/icons/astro.png";
+import Earth from "../assets/icons/planet-earth.png";
 import HeroOrbit from "@/components/HeroOrbit";
 import { RefObject } from "react";
 import Image from "next/image";
@@ -41,6 +43,7 @@ export const HeroSection = ({
         >
           <StarImg className="size-32 text-emerald-300" />
         </HeroOrbit>
+
         <HeroOrbit
           size={800}
           routation={-72}
@@ -51,6 +54,7 @@ export const HeroSection = ({
         >
           <StarImg className="size-28 text-emerald-300" />
         </HeroOrbit>
+
         <HeroOrbit
           size={550}
           routation={20}
@@ -61,6 +65,7 @@ export const HeroSection = ({
         >
           <StarImg className="size-12 text-emerald-300" />
         </HeroOrbit>
+
         <HeroOrbit
           size={590}
           routation={98}
@@ -93,6 +98,16 @@ export const HeroSection = ({
         >
           <SparkalIcon className="size-5 text-emerald-300/20" />
         </HeroOrbit>
+        <HeroOrbit
+          size={640}
+          routation={79}
+          shouldOrbit
+          orbitDurition="32s"
+          shouldSpin
+          spinDurition="4s"
+        >
+          <Image src={Earth} alt="Earth" className="size-8" />
+        </HeroOrbit>
 
         <HeroOrbit
           size={530}
@@ -103,6 +118,17 @@ export const HeroSection = ({
           spinDurition="4s"
         >
           <SparkalIcon className="size-10 text-emerald-300/20" />
+        </HeroOrbit>
+
+        <HeroOrbit
+          size={900}
+          routation={50}
+          shouldOrbit
+          orbitDurition="50s"
+          shouldSpin
+          spinDurition="4s"
+        >
+          <Image src={Astro} alt="Astro" className="size-12" />
         </HeroOrbit>
 
         <HeroOrbit
